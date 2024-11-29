@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güzellik Merkezi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Güzellik Merkezi</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hizmetler">Hizmetler</a></li>
+                    <li><a href="#galeri">Galeri</a></li>
+                    <li><a href="#cark">Çark</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Hoş Geldiniz!</h2>
+            <p>Güzellik ve bakım hizmetlerinde mükemmellik. Kendinizi şımartın!</p>
+            <a href="#hizmetler" class="btn">Hizmetlerimizi Keşfedin</a>
+        </div>
+    </section>
+
+    <section id="hizmetler" class="services">
+        <h2>Hizmetlerimiz</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Cilt Bakımı</h3>
+                <p>Profesyonel cilt bakımı ile cildinizi tazeleyin ve canlandırın.</p>
+            </div>
+            <div class="service-item">
+                <h3>Saç Bakımı</h3>
+                <p>Saçlarınıza özen gösterin, sağlıklı ve parlak saçlara sahip olun.</p>
+            </div>
+            <div class="service-item">
+                <h3>Manikür & Pedikür</h3>
+                <p>Uzman manikür ve pedikür hizmeti ile elleriniz ve ayaklarınız pırıl pırıl.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" class="gallery">
+        <h2>Galeri</h2>
+        <div class="gallery-images">
+            <img src="https://i.ibb.co/ggScNqw/istockphoto-1496614970-1024x1024.jpg" alt="Güzellik Merkezi 1">
+            <img src="https://i.ibb.co/2yZ5xNM/istockphoto-1289220585-1024x1024.jpg" alt="Güzellik Merkezi 2">
+        </div>
+    </section>
+
+    <section id="cark" class="wheel-section">
+        <h2>Çarkı Çevirin!</h2>
+        <div class="wheel-container">
+            <canvas id="wheel" width="400" height="400"></canvas>
+            <button id="spin-btn" class="btn">Çarkı Çevir</button>
+        </div>
+        <div id="wheel-info" class="wheel-info">
+            <h3>Hizmet Detayları</h3>
+            <p id="service-detail">Bir hizmet seçin!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Güzellik Merkezi. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
